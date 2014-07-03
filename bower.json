@@ -1,0 +1,23 @@
+{
+  "name": "RequirejsEx",
+  "version": "1.0.0",
+    "ignore": [
+    ".jshintrc",
+    "**/*.txt",
+    "deploy.rb",
+    "jquery.mask.json",
+    "Gruntfile.js",
+    "test/*",
+    ".*"
+  ],
+  "dependencies": {
+    "jquery":"1.9.1",
+    "requirejs":"2.1.14"
+    
+  },
+  "devDependencies": {
+    
+  },
+  "appPath": "app"
+}
+
