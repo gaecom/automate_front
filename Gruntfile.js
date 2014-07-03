@@ -201,7 +201,15 @@ module.exports = function (grunt) {
         }
       }
     },
-
+    requirejs: {
+      compile: {
+        options: {
+          baseUrl: "<%= niuspace.app %>/scripts/modules/",
+          name: "app",
+          out: "dist/app.min.js"
+        }
+      }
+    }
     // Performs rewrites based on filerev and the useminPrepare configuration
     usemin: {
       html: ['<%= niuspace.dist %>/{,*/}*.html'],
